@@ -1,0 +1,72 @@
+.contact a:visited {
+  color: #337ab7;
+}
+
+.contact a:link {
+  color: #337ab7;
+}
+
+.col {
+		float: left;
+		max-width: 100%;
+		padding-left: 5px;
+		padding-right: 5px;
+		background-clip: content-box;
+	}
+
+.contact-phone {
+	font-family: $fontHighlight;
+	font-weight: bold;
+	display: block;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.contact-or {
+	display: block;
+	line-height: 1px;
+	height: 1px;
+	background: #979797;
+	text-align: center;
+	margin: 40px 0;
+
+	span {
+		display: inline-block;
+		padding: 0 10px;
+		position: relative;
+		top: -10px;
+		line-height: 20px;
+		background: pink;
+	}
+}
+
+.contact-link {
+	display: block;
+	font-size: 20px;
+	line-height: 32px;
+}
+.button {
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid #222;
+	font-size: 14px;
+	line-height: 50px;
+  margin-top: 72px;
+	padding: 15px 30px;
+	letter-spacing: 0.2em;
+
+	&:hover {
+		background-color: red;
+		text-decoration: none;
+	}
+
+	.button-group & {
+		display: block;
+		width: 100%;
+		text-align: center;
+
+		&:not(:last-child) {
+			border-bottom: none;
+		}
+	}
+}
