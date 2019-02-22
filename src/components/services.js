@@ -1,6 +1,8 @@
 import React from "react";
 import "./services.css";
 import Img from "gatsby-image";
+import PhoneNumber from 'react-phone-number';
+
 
 // Need to add more services and images that goes with it.
 const Services = ({ microImg, ombreImg, eyelinerImg }) => {
@@ -16,7 +18,12 @@ const Services = ({ microImg, ombreImg, eyelinerImg }) => {
             </p>
             <br />
             <p>Prices: $400</p>
-            <p>To book call at:<span> (850) 774-4418</span></p>
+            <button><a href="tel:8507744418">To book call at: (850) 774-4418</a></button>
+            <p>
+              <a href="https://wego.here.com/directions/mix//Brow-Artistry-by-Irina,-9900-S-Thomas-Drive-Shores-of-Panama-Resort,-32408-Panama-City-Beach:e-eyJuYW1lIjoiQnJvdyBBcnRpc3RyeSBieSBJcmluYSIsImFkZHJlc3MiOiI5OTAwIFMgVGhvbWFzIERyaXZlIFxuU2hvcmVzIG9mIFBhbmFtYSBSZXNvcnQsIFBhbmFtYSBDaXR5IEJlYWNoLCBGbG9yaWRhIiwibGF0aXR1ZGUiOjMwLjE3NjM4LCJsb25naXR1ZGUiOi04NS42ODQwMiwicHJvdmlkZXJOYW1lIjoiZmFjZWJvb2siLCJwcm92aWRlcklkIjo0NTgyMDUxOTgwNDM4MTN9?map=30.17638,-85.68402,15,normal&fb_locale=en_US" target="_blank" rel="noopener noreferrer" className="directions">
+                Get Directions
+              </a>
+            </p>
             <br />
             <br />
             <br />
@@ -40,7 +47,12 @@ const Services = ({ microImg, ombreImg, eyelinerImg }) => {
             </p>
             <br />
             <p>Prices: $500</p>
-            <p>To book call at:<span> (850) 774-4418</span></p>
+            <button><a href="tel:8507744418">To book call at: (850) 774-4418</a></button>
+            <p>
+              <a href="https://wego.here.com/directions/mix//Brow-Artistry-by-Irina,-9900-S-Thomas-Drive-Shores-of-Panama-Resort,-32408-Panama-City-Beach:e-eyJuYW1lIjoiQnJvdyBBcnRpc3RyeSBieSBJcmluYSIsImFkZHJlc3MiOiI5OTAwIFMgVGhvbWFzIERyaXZlIFxuU2hvcmVzIG9mIFBhbmFtYSBSZXNvcnQsIFBhbmFtYSBDaXR5IEJlYWNoLCBGbG9yaWRhIiwibGF0aXR1ZGUiOjMwLjE3NjM4LCJsb25naXR1ZGUiOi04NS42ODQwMiwicHJvdmlkZXJOYW1lIjoiZmFjZWJvb2siLCJwcm92aWRlcklkIjo0NTgyMDUxOTgwNDM4MTN9?map=30.17638,-85.68402,15,normal&fb_locale=en_US" target="_blank" rel="noopener noreferrer" className="directions">
+                Get Directions
+              </a>
+            </p>
             <br />
             <br />
             <br />
@@ -70,9 +82,13 @@ const Services = ({ microImg, ombreImg, eyelinerImg }) => {
             </p>
             <br />
             <p>Prices: $425</p>
-            <p>To book call at: <span> (850) 774-4418</span></p>
+            <button><a href="tel:8507744418">To book call at: (850) 774-4418</a></button>
+            <p>
+              <a href="https://wego.here.com/directions/mix//Brow-Artistry-by-Irina,-9900-S-Thomas-Drive-Shores-of-Panama-Resort,-32408-Panama-City-Beach:e-eyJuYW1lIjoiQnJvdyBBcnRpc3RyeSBieSBJcmluYSIsImFkZHJlc3MiOiI5OTAwIFMgVGhvbWFzIERyaXZlIFxuU2hvcmVzIG9mIFBhbmFtYSBSZXNvcnQsIFBhbmFtYSBDaXR5IEJlYWNoLCBGbG9yaWRhIiwibGF0aXR1ZGUiOjMwLjE3NjM4LCJsb25naXR1ZGUiOi04NS42ODQwMiwicHJvdmlkZXJOYW1lIjoiZmFjZWJvb2siLCJwcm92aWRlcklkIjo0NTgyMDUxOTgwNDM4MTN9?map=30.17638,-85.68402,15,normal&fb_locale=en_US" target="_blank" rel="noopener noreferrer" className="directions">
+                Get Directions
+              </a>
+            </p>
           </div>
-
           <div className="col-12 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-5 offset-lg-1 ">
             <Img
               title="Eyeliner service image"

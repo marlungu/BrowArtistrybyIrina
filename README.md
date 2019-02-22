@@ -11,4 +11,4 @@
 
 ## Sitemap
 
-- [Home](https://marianalungu.io)
+<!-- - [Home](https://marianalungu.io) -->
