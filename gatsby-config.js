@@ -3,7 +3,7 @@ module.exports = {
     title: "Brow Artistry by Irina || Home",
     description:
       "My mission as a developer is to contribute to applications that empower and motivate lives. Let's change the world together.",
-    // siteUrl: "https://www.marianalungu.io",
+    siteUrl: "https://www.marianalungu.io",
     author: "irinapopescu",
   },
   plugins: [
