@@ -26,14 +26,11 @@
 .black-font {
   color: #000 !important;
 }
-/* Using bootstrap's navbar default blue color: #337ab7 */
-.blue-font {
-  color: #337ab7 !important;
-}
 
-.red-font {
+
+/* .red-font {
   color: red !important;
-}
+} */
 
 .navbar-brand {
   font-size: 25px !important;
@@ -55,8 +52,8 @@ ul.white-font.navbar-nav > li > a {
   color: white;
 }
 
-ul.red-font.navbar-nav > li > a {
-  color: red;
+ul.black-font.navbar-nav > li > a {
+  color: #000;
 }
 
 .nav-link {

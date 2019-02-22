@@ -13,7 +13,7 @@ module.exports = {
         name: `Brow Artistry by Irina`,
         short_name: `BrowArtistrybyIrina`,
         start_url: `/`,
-        background_color: `#337ab7`,
+        background_color: `#337ab`,
         theme_color: `#337ab7`,
         display: `fullscreen`,
         icon: `src/static/logo/favicon.png` // This path is relative to the root of the site.

@@ -60,13 +60,11 @@ class Navigation extends Component {
     const whiteBackground = this.state.hasScrolledDown
       ? "white-background navbar-border"
       : "";
-    const fontColor = this.state.hasScrolledDown ? "red-font" : "black-font";
+    const fontColor = this.state.hasScrolledDown ? "black-font" : "black-font";
 
     return (
       <Navbar className={whiteBackground} fixed={"top"} expand="md">
-        <NavbarBrand href="https://www.maribelduran.com/" className={fontColor}>
-          Brow Artistry by Irina
-        </NavbarBrand>
+        
         <NavbarToggler onClick={this.toggleNavbar}>
           <i className={`fa fa-navicon ${fontColor}`} />
         </NavbarToggler>

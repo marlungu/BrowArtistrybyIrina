@@ -1,4 +1,4 @@
-# Brow Artistry by Irina :blue_heart:
+# Brow Artistry by Irina :black_heart:
 
 
 ## Tech stack

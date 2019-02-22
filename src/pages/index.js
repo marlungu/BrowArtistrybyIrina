@@ -25,7 +25,7 @@ const HomePage = ({ data }) => {
       <div className="container-fluid main">
         <Navigation />
         <AboutMe profileImg={data.profileImg}/>
-        <Services />
+        <Services microImg={data.microImg} ombreImg={data.ombreImg} eyelinerImg={data.eyelinerImg}/>
         <Contact />
         <Footer />
       </div>
@@ -56,7 +56,25 @@ export const query = graphql`
       }
     }
 
-    
+    microImg: imageSharp(id: { regex: "/Micro/" }) {
+      sizes(maxWidth: 620, maxHeight: 530) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+
+    ombreImg: imageSharp(id: { regex: "/Ombre/" }) {
+      sizes(maxWidth: 620, maxHeight: 530) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+
+    eyelinerImg: imageSharp(id: { regex: "/Eyeliner/" }) {
+      sizes(maxWidth: 620, maxHeight: 530) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+
+
 
 
   }
