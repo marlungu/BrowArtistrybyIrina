@@ -10,14 +10,17 @@ const Contact = () => {
 				<p className="col sm-12 md-5 lg-3 md-push-1 lg-push-3 contact">
 					Call Irina at
 					<span className="contact-phone"> (850) 774-4418</span>
-					<span className="contact-or">
-						<span>or</span>
+
+					<span>
+						or
 					</span>
+          <br />
 					drop her a line at
 					<a href="mailto:ipopescu0127@gmail.com" className="contact-link">
           <p><i class="fa fa-envelope"></i></p>
 					</a>
 				</p>
+        <div className="row text-center section-content">
         <div className="col fluid md-3 lg-2 md-push-1 lg-push-2 button-group">
           <a href="https://www.instagram.com/irina_gsmom/" className="button -block">
             Instagram
@@ -28,6 +31,7 @@ const Contact = () => {
           <a href="https://www.facebook.com/Brow-Artistry-by-Irina-458205198043813/" className="button -block">
             Facebook
           </a>
+        </div>
 			</div>
 
       <div className="row text-center section-content">
