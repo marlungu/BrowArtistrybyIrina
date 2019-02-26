@@ -44,7 +44,7 @@ export const query = graphql`
       }
     }
 
-    coverImg: imageSharp(id: { regex: "/Ira/" }) {
+    coverImg: imageSharp(id: { regex: "/Cover/" }) {
       sizes(maxWidth: 1200) {
         ...GatsbyImageSharpSizes
       }

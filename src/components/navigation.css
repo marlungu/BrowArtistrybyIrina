@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Srisakdi:400,700");
+
 .navbar {
   background-color: transparent;
   font-size: 16px;
@@ -34,6 +36,8 @@
 
 .navbar-brand {
   font-size: 25px !important;
+  font-family: 'Srisakdi', cursive;
+  font-weight: bolder;
 }
 
 .navbar-brand:hover {

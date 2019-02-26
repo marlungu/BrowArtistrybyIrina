@@ -64,7 +64,9 @@ class Navigation extends Component {
 
     return (
       <Navbar className={whiteBackground} fixed={"top"} expand="md">
-        
+      <NavbarBrand href="https://brow-artistry-by-irina.netlify.com/" className={fontColor}>
+        Brow Artistry by Irina
+      </NavbarBrand>
         <NavbarToggler onClick={this.toggleNavbar}>
           <i className={`fa fa-navicon ${fontColor}`} />
         </NavbarToggler>

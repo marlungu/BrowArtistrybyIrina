@@ -181,7 +181,7 @@ const Services = ({ microImg, bladeImg, ombreImg, eyelinerImg, combImg, browEyel
         </div>
         <hr />
         <div className="row services">
-          <div className="col-12 col-md-12">
+          <div className="col-12 col-sm-10 col-md-12">
             <h4>Cosmetic tattoo removal</h4>
             <br/>
             <span className="space">
