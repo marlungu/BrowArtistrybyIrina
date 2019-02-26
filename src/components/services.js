@@ -5,7 +5,7 @@ import PhoneNumber from 'react-phone-number';
 
 
 // Need to add more services and images that goes with it.
-const Services = ({ microImg, ombreImg, eyelinerImg }) => {
+const Services = ({ microImg, bladeImg, ombreImg, eyelinerImg, combImg, browEyelinerImg }) => {
   return (
     <section id="services" className="section">
       <h2 className="text-center">SERVICES</h2>
@@ -52,7 +52,7 @@ const Services = ({ microImg, ombreImg, eyelinerImg }) => {
             <Img
               title="Microblading service image"
               alt="Microblading image"
-              sizes={microImg.sizes}
+              sizes={bladeImg.sizes}
               className="img-responsive center-block"
             />
           </div>
@@ -107,7 +107,7 @@ const Services = ({ microImg, ombreImg, eyelinerImg }) => {
             <Img
               title="Ombré service image"
               alt="Ombré shading image"
-              sizes={ombreImg.sizes}
+              sizes={combImg.sizes}
               className="img-responsive center-block"
             />
           </div>
@@ -170,7 +170,7 @@ const Services = ({ microImg, ombreImg, eyelinerImg }) => {
             <Img
               title="Microblading service image"
               alt="Microblading image"
-              sizes={microImg.sizes}
+              sizes={browEyelinerImg.sizes}
               className="img-responsive center-block"
             />
           </div>
@@ -181,7 +181,7 @@ const Services = ({ microImg, ombreImg, eyelinerImg }) => {
         </div>
         <hr />
         <div className="row services">
-          <div className="col-12 col-sm-12 col-md-6">
+          <div className="col-12 col-md-12">
             <h4>Cosmetic tattoo removal</h4>
             <br/>
             <span className="space">
@@ -190,17 +190,10 @@ const Services = ({ microImg, ombreImg, eyelinerImg }) => {
             <br/>
             <p>
             A specialized, all natural solution is implanted over your existing cosmetic tattoo.
-            When it penetrates the skin, it breaks up the pigment and lifts the pigment to surface when scabbing. 
+            When it penetrates the skin, it breaks up the pigment and lifts the pigment to surface when scabbing.
             </p>
           </div>
-          <div className="col-12 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-5 offset-lg-1 ">
-            <Img
-              title="Microblading service image"
-              alt="Microblading image"
-              sizes={microImg.sizes}
-              className="img-responsive center-block"
-            />
-          </div>
+
           <div className="col-12 col-sm-12 col-md-6">
             <p>Prices: $100 (per session)</p>
             <button className="butt"><a href="tel:8507744418">To book call at: (850) 774-4418</a></button>

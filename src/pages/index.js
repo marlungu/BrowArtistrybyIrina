@@ -25,7 +25,7 @@ const HomePage = ({ data }) => {
       <div className="container-fluid main">
         <Navigation />
         <AboutMe profileImg={data.profileImg}/>
-        <Services microImg={data.microImg} ombreImg={data.ombreImg} eyelinerImg={data.eyelinerImg}/>
+        <Services microImg={data.microImg} ombreImg={data.ombreImg} eyelinerImg={data.eyelinerImg} browEyelinerImg={data.browEyelinerImg} combImg={data.combImg} bladeImg={data.bladeImg}/>
         <Contact />
         <Footer />
       </div>
@@ -62,7 +62,19 @@ export const query = graphql`
       }
     }
 
+    bladeImg: imageSharp(id: { regex: "/Blade/" }) {
+      sizes(maxWidth: 620, maxHeight: 530) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+
     ombreImg: imageSharp(id: { regex: "/Ombre/" }) {
+      sizes(maxWidth: 620, maxHeight: 530) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+
+    combImg: imageSharp(id: { regex: "/Comb/" }) {
       sizes(maxWidth: 620, maxHeight: 530) {
         ...GatsbyImageSharpSizes
       }
@@ -70,6 +82,12 @@ export const query = graphql`
 
     eyelinerImg: imageSharp(id: { regex: "/Eyeliner/" }) {
       sizes(maxWidth: 620, maxHeight: 530) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+
+    browEyelinerImg: imageSharp(id: { regex: "/BrowEye/" }) {
+      sizes(maxWidth: 620, maxHeight: 565) {
         ...GatsbyImageSharpSizes
       }
     }
