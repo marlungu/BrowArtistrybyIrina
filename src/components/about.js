@@ -28,7 +28,7 @@ const AboutMe = ({ profileImg }) => {
               So I did my research on training and what it took to start a business, market outlook, start-up cost, etc. I decided to start with microblading since this is one of the most popular techniques used nowadays. I chose the best microblading training course at PhiBrows Academy in the state of California, which is the most prestigious beauty academy in the world. There I learned how to use the PhiBrows method for precise calculation of the ideal shape of your eyebrows, according to the golden intersection phi (1.618) and face morphology.
             </p>
           </div>
-          <div className="col-12 col-sm-10 col-md-12">
+          <div className="col-12 col-md-10 col-md-12">
             <p>
               After getting my certification, I decided that I had to continue my journey and signed up for a higher level class with Advance Microblading Academy in Illinois. There, I proudly completed my advanced training in ombré shading, cosmetic tattoo removal, and color correction.
             </p>

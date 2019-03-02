@@ -22,11 +22,8 @@ const Contact = () => {
 				</p>
         <div className="row text-center section-content">
         <div className="col fluid md-3 lg-2 md-push-1 lg-push-2 button-group">
-          <a href="https://www.instagram.com/irina_gsmom/" className="button -block">
+          <a href="https://www.instagram.com/brow_artistry_by_irina/" className="button -block">
             Instagram
-          </a>
-          <a href="https://twitter.com/irina_gsmom" className="button -block">
-            Twitter
           </a>
           <a href="https://www.facebook.com/Brow-Artistry-by-Irina-458205198043813/" className="button -block">
             Facebook
